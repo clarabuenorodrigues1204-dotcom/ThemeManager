@@ -4,7 +4,7 @@ import json
 
 def escolha_variacao(tema_escolhido):
 
-    with open("interface/interface_variacao.json" , "r" , encoding= "utf-8") as arquivo:
+    with open("dados/dados_variacao.json" , "r" , encoding= "utf-8") as arquivo:
         
         interface_variacao = json.load(arquivo)
         variacoes_disponiveis = interface_variacao[tema_escolhido]

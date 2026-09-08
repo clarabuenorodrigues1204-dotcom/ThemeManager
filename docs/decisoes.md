@@ -86,3 +86,16 @@ Permitir maior flexibilidade na escolha dos temas e preparar o projeto para tema
 **Motivo:**
 
 Registrar o funcionamento atual, planejamento futuro e decisões tomadas durante o desenvolvimento.
+
+---
+
+# Mudanças
+
+- Mudar o arquivo interface_variacao.json para a pasta dados
+- Mudar o config.json para a pasta settings
+- Mudar nome de arquivos 
+	- interface_variacao.json - dados_variacao.json
+	- temas.py - dados_temas.py
+	- vscode_config.py - gerenciar_config_vscode.py
+	- config.json - estado_atual.json
+- Padronização entre as funções "escolha_tema" e "escolha_variacao"

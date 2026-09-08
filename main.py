@@ -2,13 +2,13 @@ from os import system
 system('cls')
 
 from time import sleep
-import dados.temas as temas  
+import dados.dados_temas as dados_temas  
 from interface import interface_variacao
 from settings.save_config import salvar_config
-from settings.vscode_config import alterar_tema_vscode
+from settings.gerenciar_config_vscode import alterar_tema_vscode
 from interface.interface_temas import escolha_tema
 
-tema_escolhido = escolha_tema(temas.temas)
+tema_escolhido = escolha_tema(dados_temas.temas)
 
 
 variacao_escolhida = interface_variacao.escolha_variacao(tema_escolhido)
